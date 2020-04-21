@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model</title>
+    <style>
+      body,
+      html {
+        padding: 0;
+        margin: 0;
+        background-color: beige;
+        height: 100%;
+      }
+      .box {
+        background-color: yellowgreen;
+        width: 50%;
+        height: 50%;
+        padding: 10px 15px 25px 10px;
+        margin: 20px;
+      }
+      .inside-box {
+        background-color: tomato;
+        width: 50%;
+        height: 50%;
+        border: 8px dashed lightslategray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="inside-box"></div>
+    </div>
+  </body>
+</html>
